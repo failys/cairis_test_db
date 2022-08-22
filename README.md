@@ -5,4 +5,4 @@ The CAIRIS unit tests work on the basis that you are running them on the same ma
 
 `startServer.sh` provisions a MySQL container as a CAIRIS database server. You should call this script before running any test cases. 
 
-`resetServe.sh` is the script each unit test should run.  It assumes the database container is already running, and simply re-creates the tables, views, and stored procedures in the `cairis_test_default` database (used by the unit tests).
+`resetServer.sh` is the script each unit test should run.  It assumes the database container is already running, and simply re-creates the tables, views, and stored procedures in the `cairis_test_default` database (used by the unit tests).
